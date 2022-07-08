@@ -3,13 +3,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
-import 'package:to_do_list_with_redux/actions.dart';
-import 'package:to_do_list_with_redux/fav_list_page.dart';
-import 'package:to_do_list_with_redux/state.dart';
+import 'package:to_do_list_with_redux/action/actions.dart';
+import 'package:to_do_list_with_redux/page/fav_list_page.dart';
+import 'package:to_do_list_with_redux/state/state.dart';
 
-import 'list_page.dart';
-import 'middleware.dart';
-import 'reducers.dart';
+import 'page/list_page.dart';
+import 'middleware/middleware.dart';
+import 'reducer/reducers.dart';
 
 void main() {
   final Store<AppState> store = Store<AppState>(
